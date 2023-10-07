@@ -1,0 +1,167 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0c1823;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: #b1305f;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background-color: #fff;
+    color: #2b1055;
+}
+
+section#tabela-complexa{
+    margin-top: 10%;
+}
+
+/* Estilos para os containers */
+.container {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra para um toque tridimensional */
+}
+
+.container h2 {
+    font-size: 36px; /* Tamanho grande para cabeçalhos */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #555; /* Cor de texto mais suave */
+    line-height: 1.6;
+}
+
+/* Estilos para as imagens da galeria de produtos */
+.product-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+h2{
+    color: white;
+}
+
+
+table, th, td {
+    border: 1px solid #ddd; /* Linhas suaves nas tabelas */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilos para o formulário de contato */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+}
+
+form button[type="submit"]:hover {
+    background-color: #444;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}

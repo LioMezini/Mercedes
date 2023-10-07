@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP LuxeInteriors</title>
+    <link rel="stylesheet" href="tab.css">
+    <link rel="icon" href="IMG/logotipo.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="/IMG/logotipo.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <a href="#" class="logo">GPL</a>
+        <ul>
+            <li><a href="mercedes.html">Home</a></li>
+            <li><a href="#" class="active">Tabelas de Informações</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+    </header>
+
+    <section id="tabela-complexa">
+        <h2>Nossos Produtos</h2>
+        <table id="tabelaComplexa">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Produto</th>
+                    <th>Descrição</th>
+                    <th>Preço (em R$)</th>
+                    <th>Em Estoque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui o JavaScript irá adicionar as linhas da tabela -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="fornecedores">
+        <h2>Tabela de Fornecedores</h2>
+        <table id="tabelaFornecedores">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Fornecedor</th>
+                    <th>Produto Fornecido</th>
+                    <th>Contato</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui o JavaScript irá adicionar as linhas da tabela -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="custos-producao">
+        <h2>Tabela de Custos de Produção</h2>
+        <table id="tabelaProducao">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Item</th>
+                    <th>Custo (em R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui o JavaScript irá adicionar as linhas da tabela -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="valores-materia-prima">
+        <h2>Tabela de Valores da Matéria-prima</h2>
+        <table id="tabelaPrima">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Material</th>
+                    <th>Valor (em R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui o JavaScript irá adicionar as linhas da tabela -->
+            </tbody>
+        </table>
+    </section>
+
+    <section id="valores-fretes">
+        <h2>Tabela de Valores de Fretes por KM</h2>
+        <table id="tabelaFretes">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Destino</th>
+                    <th>Valor por KM (em R$)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui o JavaScript irá adicionar as linhas da tabela -->
+            </tbody>
+        </table>
+    </section>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
